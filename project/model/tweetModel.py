@@ -1106,13 +1106,13 @@ def resolve_conflict(user):
 
 #if __name__ == '__main__':
 # username = 'user_3'
-create_dbs(users=7, tweets=100)
+#create_dbs(users=7, tweets=100)
 # user=User.objects(username="sjmodha").first()
 # user.change_password("sjmodha_admin@hasoc2020")
 # print(user.verify_password("sjmodha_admin@hasoc2020"))
 # tweets_ids=[tweet_id for tweet_id in Tweets.objects(lang='hi').values_list("tweet_id")[:100]]
 # print(len(tweets_ids))
-admin = Admin()
+#admin = Admin()
 # admin.distribute_all_unassigned_tweets(language="en", admin=False, each_annot=1, restrict=['kanishka_chetia'])
 # admin.distribute_all_unassigned_tweets(language="hi", admin=False, each_annot=2, count=5000, restrict=['kanishka_chetia'])
 # tweets=Tweets.objects(Q(lang='en') & Q(total_annotation=1) & Q(total_assigned=1))
